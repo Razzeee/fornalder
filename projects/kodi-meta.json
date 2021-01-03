@@ -1,0 +1,56 @@
+{
+    "name": "Kodi",
+    "first_year": 2009,
+    "markers":
+    [
+        { "time": { "year": 2009, "month": 12 }, "row": 0,
+          "text": "▼ Camelot" },
+
+        { "time": { "year": 2010, "month": 12 }, "row": 0,
+          "text": "▼ Dharma" },
+
+        { "time": { "year": 2012, "month": 3 }, "row": 0,
+          "text": "▼ Eden" },
+
+        { "time": { "year": 2013, "month": 1 }, "row": 0,
+          "text": "▼ Frodo" },
+
+        { "time": { "year": 2014, "month": 5 }, "row": 0,
+          "text": "▼ Gotham" },
+
+        { "time": { "year": 2014, "month": 12 }, "row": 0,
+          "text": "▼ Helix" },
+
+        { "time": { "year": 2015, "month": 7 }, "row": 0,
+          "text": "▼ Isengard" },
+
+        { "time": { "year": 2016, "month": 2 }, "row": 0,
+          "text": "▼ Jarvis" },
+
+        { "time": { "year": 2017, "month": 2 }, "row": 0,
+          "text": "▼ Krypton" },
+
+        { "time": { "year": 2019, "month": 1 }, "row": 0,
+          "text": "▼ Leia" }
+    ],
+    "domains":
+    [
+        {
+            "name": "localhost",
+            "show": false
+        },
+        {
+            "name": "personal",
+            "show": false,
+            "aggregate_emails":
+            [
+                { "pattern": "*gmail.com" },
+                { "pattern": "*gmx.de" },
+                { "pattern": "*gmx.net" },
+                { "pattern": "*googlemail.com" },
+                { "pattern": "*hotmail.com" },
+                { "pattern": "*yahoo.com" }
+            ]
+        }       
+    ]
+}
